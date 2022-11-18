@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/trajanovinicius/API-VENDAS.git",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "ts-node-dev": "^2.0.0",
