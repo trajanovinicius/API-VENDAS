@@ -1,5 +1,5 @@
 {
-  "name": "API-VENDAS",
+  "name": "api-vendas",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/trajanovinicius/API-VENDAS.git",
@@ -30,6 +30,6 @@
     "express-async-errors": "^3.1.1",
     "pg": "^8.8.0",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.10"
+    "typeorm": "0.2.29"
   }
 }
