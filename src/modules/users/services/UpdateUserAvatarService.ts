@@ -8,7 +8,7 @@ import fs from 'fs';
 
 interface IRequest {
   user_id: string;
-  avatarFilename: string;
+  avatarFilename: string | undefined;
 }
 
 class UpdateUserAvatarService {
@@ -30,7 +30,7 @@ class UpdateUserAvatarService {
       }
     }
 
-    user.avatar = avatarFilename;
+    user.avatar = avatarFilename || '';
 
     await usersRepository.save(user);
 
