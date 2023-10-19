@@ -15,7 +15,7 @@ productsRouter.get(
       id: Joi.string().uuid().required(),
     },
   }),
-  productsController.show,
+  productsController.show
 );
 
 productsRouter.post(
@@ -27,7 +27,7 @@ productsRouter.post(
       quantity: Joi.number().required(),
     },
   }),
-  productsController.create,
+  productsController.create
 );
 
 productsRouter.put(
@@ -42,7 +42,7 @@ productsRouter.put(
       id: Joi.string().uuid().required(),
     },
   }),
-  productsController.update,
+  productsController.update
 );
 
 productsRouter.delete(
@@ -52,7 +52,7 @@ productsRouter.delete(
       id: Joi.string().uuid().required(),
     },
   }),
-  productsController.delete,
+  productsController.delete
 );
 
 export default productsRouter;
