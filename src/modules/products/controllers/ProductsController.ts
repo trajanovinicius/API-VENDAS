@@ -44,6 +44,7 @@ export default class ProductsController {
 
     return response.json(product);
   }
+
   public async delete(request: Request, response: Response): Promise<Response> {
     const { id } = request.params;
 
