@@ -44,7 +44,7 @@ export class CreateUserTokens1689727689278 implements MigrationInterface {
             onUpdate: 'CASCADE',
           },
         ],
-      }),
+      })
     );
   }
   public async down(queryRunner: QueryRunner): Promise<void> {
